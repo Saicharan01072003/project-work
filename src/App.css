@@ -1,0 +1,115 @@
+/* Page Background */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #74ebd5, #9face6);
+}
+
+/* Main Container */
+.container {
+  width: 70%;
+  margin: 50px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0px 8px 20px rgba(0,0,0,0.3);
+  text-align: center;
+}
+
+/* Title */
+h1, h2 {
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Table Design */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+/* Table Header */
+th {
+  background: linear-gradient(to right,#007bff,#00c6ff);
+  color: white;
+  padding: 12px;
+  font-size: 18px;
+}
+
+/* Table Rows */
+td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  font-size: 16px;
+}
+
+/* Hover Effect */
+tr:hover {
+  background-color: #f2f2f2;
+}
+
+/* Buttons */
+button {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+/* Details Button */
+.detailsBtn {
+  background: #28a745;
+  color: white;
+}
+
+.detailsBtn:hover {
+  background: #1e7e34;
+}
+
+/* View Chart Button */
+.chartBtn {
+  background: #ff9800;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.chartBtn:hover {
+  background: #e68900;
+}
+
+/* Back Button */
+.backBtn {
+  background: #2196f3;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.backBtn:hover {
+  background: #0b7dda;
+}
+
+/* Details Box */
+.detailsBox {
+  margin-top: 30px;
+  padding: 20px;
+  background: #f4f6f9;
+  border-radius: 10px;
+  box-shadow: 0px 3px 10px rgba(0,0,0,0.2);
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Chart Container */
+.chartContainer {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 80%;
+  margin: auto;
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.3);
+}
